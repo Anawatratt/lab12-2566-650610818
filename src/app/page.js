@@ -38,7 +38,7 @@ export default function HomePage() {
     },
     TH: {
       name: "th",
-      header: "ตัวอย่างเว็บไซท์ useContext อย่างง่าย",
+      header: "ตัวอย่างเว็บไซต์ useContext อย่างง่าย",
       detail: {
         lightActivated: "กำลังใช้ธีมไลท์",
         darkActivated: "กำลังใช้ธีมดาร์ค",
@@ -78,7 +78,11 @@ export default function HomePage() {
           <Controller />
         </LangContext.Provider>
       </ThemeContext.Provider>
-      <Footer year="2023" fullName="Chayanin Suatap" studentId="650610560" />
+      <Footer
+        year="2023"
+        fullName="Anawat Rattanakitsorn"
+        studentId="650610818"
+      />
     </div>
   );
 }
